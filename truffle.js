@@ -18,6 +18,13 @@ module.exports = {
       network_id: '*', // Match any network id
       gas: 4600000
     },
+    coverage: {
+      host: "localhost",
+      port: 8555,
+      network_id: "*",
+      gas: 0xfffffffffff,
+      gasPrice: 0x01
+    },
     paratii: {
       host: 'https://chain.paratii.video',
       port: 443,
